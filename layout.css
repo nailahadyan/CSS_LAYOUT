@@ -1,0 +1,29 @@
+.grid-container {
+    background-color: #2196f3;
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    text-align: center;
+}
+.grid-container > div {
+    border: solid #2196f3 7px;
+    padding: 10px;
+}
+.header {
+    grid-column: 1/4;
+    background-color: lightblue;
+}
+.menu {
+    grid-row: 2/4;
+    background-color: lightblue;
+}
+.main {
+    grid-column:  2;
+    background-color: lightblue;
+}
+.right {
+     background-color: lightblue; 
+}
+.footer {
+     grid-column: 2/4; 
+     background-color: lightblue; 
+}

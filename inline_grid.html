@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Grid Box</title>
+    <style>
+        .tempat_grid {
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            background-color: #2196F3;
+            padding: 10px;
+            /* Skenario 3:*/
+            grid-column-gap: 10px;
+            grid-row-gap: 50px;
+        }
+        .item_grid {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        /* Skenario 4*/
+        .tempat_grid {
+            grid-gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tampilan</h1>
+    <div class="item_grid">1</div>
+    <div class="item_grid">2</div>
+    <div class="item_grid">3</div>
+    <div class="item_grid">4</div>
+    <div class="item_grid">5</div>
+    <div class="item_grid">6</div>
+    <div class="item_grid">7</div>
+    <div class="item_grid">8</div>
+    <div class="item_grid">9</div>
+
+    <p>Kesimpulan Skenario 1: Inline Grid</p>
+    <p>Properti CSS display: inline-grid menghasilkan tata letak grid yang sejajar dengan konten dokumen.</p>
+
+    <p>Kesimpulan Skenario 3: Gap antara Kolom dan Baris</p>
+    <p>Penggunaan properti grid-column-gap dan grid-row-gap memungkinkan penyesuaian jarak antara kolom dan baris dalam grid.</p>
+
+    <p>Kesimpulan Skenario 4: Grid Gap</p>
+    <p>Penggunaan properti grid-gap memudahkan dalam menetapkan jarak antara kolom dan baris secara bersamaan dalam grid.</p>
+
+</body>
+</body>
+</html>
